@@ -2,9 +2,13 @@
 
 ## This... is Edward (a.k.a Eddie)
 
-Eddie is an ESP32 powered robot that can switch back and forth between an autonomous and controlled mode. The code in this repository is the code that he uses to function.
+Eddie is an ESP32 powered robot that can switch back and forth between an autonomous and controlled mode. 
 
-## His parts and their functions:
+##The code
+
+The code in this repository is the code that he uses to function. It is split into two folders. One is in the Arduino structure (a modified C/C++ language) for the ESP32-CAM board and the other is in the ESP-IDF structure (regular C language). PlatformIO in Visual Studio Code was used for both.
+
+## Eddie's Parts and Their Functions:
 
 * 1 ESP32-CAM board
   * Creates its own Wifi, generates a web app on its IP, acts as an access point (for the user to connect to the Wifi and access the web app), recieves data from the web app, and sends the needed data to the ESP32-WROOM-32D dev board through UART communication
@@ -27,12 +31,18 @@ Eddie is an ESP32 powered robot that can switch back and forth between an autono
 * 2 2000mAh 11.1V Li-ion batteries!
 
 
-# Eddie's Web App
+## Eddie's Web App
 
-[webapp](https://user-images.githubusercontent.com/55719532/191055793-7356e9bd-6d7e-492b-b6b2-d5128efd728e.jpeg)
+[Picture of the app](https://user-images.githubusercontent.com/55719532/191055793-7356e9bd-6d7e-492b-b6b2-d5128efd728e.jpeg)
 
-* The web app
+Once the user connects to Eddie's Wifi, they can go to the IP address (192.168.4.1) in their web browser. The web app allows the user to control Eddie in controlled mode and switch between controlled and autonomous mode.
 
-## His controlled mode
+## Controlled Mode
 
-In controlled mode, the user can drive Eddie. They can have hime turn left, right, go forward, and backward.
+In controlled mode, the user can drive drive Eddie. They can have Eddie go forward, backward, turn left, and turn right. They can also move Eddie's "head" around and control his speed.
+
+## Autonomous Mode
+
+In autonomous mode, Eddie roams free. He uses his sensors to drive and avoid obstacles/cliffs on his own. The user can use the web app to switch back to controlled mode at any time.
+
+
