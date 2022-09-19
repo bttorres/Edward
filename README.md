@@ -1,6 +1,4 @@
-# Edward
-
-## This... is Edward (a.k.a Eddie)
+# This... is Edward (a.k.a Eddie)
 
 Eddie is an ESP32 powered robot that can switch back and forth between an autonomous and controlled mode. 
 
