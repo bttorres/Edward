@@ -10,7 +10,7 @@ The code in this repository is the code that he uses to function. It is split in
 
 ## Eddie's Parts and Their Functions:
 
-* 1 ESP32-CAM board
+* 1 ESP32-CAM board with OV2640 camera
   * Creates its own Wifi, generates a web app on its IP, acts as an access point (for the user to connect to the Wifi and access the web app), recieves data from the web app, and sends the needed data to the ESP32-WROOM-32D dev board through UART communication
 * 1 ESP32-WROOM-32D dev board
   * Recieves data from the ESP32-CAM board and controls the sensors and servos
