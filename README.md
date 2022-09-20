@@ -26,7 +26,7 @@ The code in the "src/" folders is the code that he uses to function. It is split
   * Step down the voltages from the batteries to power the servos, ESP32-WROOM-32D dev board
 * 1 boost converter
   * Boosts the voltage from the ESP32-WROOM-32D dev board (3.3V) to 5V to power the ultrasonic sensor
-* 2 2000mAh 11.1V Li-ion batteries!
+* 2 2000mAh 11.1V Li-ion batteries
 
 
 ## Eddie's Web App
