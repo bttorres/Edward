@@ -1,12 +1,12 @@
-# This... is Edward (a.k.a Eddie)
+# This... is Edward
 
-Eddie is an ESP32 powered robot that can switch back and forth between an autonomous and controlled mode. 
+Edward is an ESP32 powered robot that can switch back and forth between an autonomous and controlled mode. 
 
 ## The code
 
 The code in the "src/" folders is the code that he uses to function. It is split into two folders. One is in the Arduino structure (a modified C/C++ language) for the ESP32-CAM board and the other is in the ESP-IDF structure (regular C language). PlatformIO in Visual Studio Code was used for both.
 
-## Eddie's Parts and Their Functions:
+## Edward's Parts and Their Functions:
 
 * 1 ESP32-CAM board with OV2640 camera
   * Creates its own Wifi, generates a web app on its IP, acts as an access point (for the user to connect to the Wifi and access the web app), recieves data from the web app, and sends the needed data to the ESP32-WROOM-32D dev board through UART communication
@@ -19,7 +19,7 @@ The code in the "src/" folders is the code that he uses to function. It is split
 * 1 regular 180 degree servo motor
   * Used as a neck to pan the ultrasonic sensor and the camera of the ESP32-CAM board
 * 2 continuous servo motors
-  * Used as Eddie's wheels
+  * Used as Edward's wheels
 * 1 ball caster
   * Assists with movement
 * 4 buck converters
@@ -29,18 +29,18 @@ The code in the "src/" folders is the code that he uses to function. It is split
 * 2 2000mAh 11.1V Li-ion batteries
 
 
-## Eddie's Web App
+## Edward's Web App
 
 [Picture of the app](https://user-images.githubusercontent.com/55719532/191055793-7356e9bd-6d7e-492b-b6b2-d5128efd728e.jpeg)
 
-Once the user connects to Eddie's Wifi, they can go to the IP address (192.168.4.1) in their web browser. The web app allows the user to control Eddie in controlled mode and switch between controlled and autonomous mode.
+Once the user connects to Edward's Wifi, they can go to the IP address (192.168.4.1) in their web browser. The web app allows the user to control Edward in controlled mode and switch between controlled and autonomous mode.
 
 ## Controlled Mode
 
-In controlled mode, the user can drive drive Eddie. They can have Eddie go forward, backward, turn left, and turn right. They can also move Eddie's "head" around and control his speed.
+In controlled mode, the user can drive drive Edward. They can have Edward go forward, backward, turn left, and turn right. They can also move Edward's "head" around and control his speed.
 
 ## Autonomous Mode
 
-In autonomous mode, Eddie roams free. He uses his sensors to drive and avoid obstacles/cliffs on his own. The user can use the web app to switch back to controlled mode at any time.
+In autonomous mode, Edward roams free. He uses his sensors to drive and avoid obstacles/cliffs on his own. The user can use the web app to switch back to controlled mode at any time.
 
 
