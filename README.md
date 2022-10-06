@@ -8,6 +8,7 @@ The code in the "src/" folders is the code that he uses to function. It is split
 
 ## Edward's Parts and Their Functions:
 
+In this repository is a PDF of the schematic depicting Edward's electronic parts and how they are connected.
 * 1 ESP32-CAM board with OV2640 camera
   * Creates its own Wifi, generates a web app on its IP, acts as an access point (for the user to connect to the Wifi and access the web app), recieves data from the web app, and sends the needed data to the ESP32-WROOM-32D dev board through UART communication
 * 1 ESP32-WROOM-32D dev board
