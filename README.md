@@ -38,7 +38,7 @@ Once the user connects to Edward's Wifi, they can go to the IP address (192.168.
 
 ## Controlled Mode
 
-In controlled mode, the user can drive drive Edward. They can have Edward go forward, backward, turn left, and turn right. They can also move Edward's "head" around and control his speed.
+In controlled mode, the user can drive Edward. They can have Edward go forward, backward, turn left, and turn right. They can also move Edward's "head" around and control his speed.
 
 ## Autonomous Mode
 
