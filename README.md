@@ -2,6 +2,8 @@
 
 Edward is an ESP32 powered robot that can switch back and forth between an autonomous and controlled mode. 
 
+https://youtu.be/i37WO3mdb8c
+
 ## The code
 
 The code in the "src/" folders is the code that he uses to function. It is split into two folders. One is in the Arduino structure (a modified C/C++ language) for the ESP32-CAM board and the other is in the ESP-IDF structure (regular C language). PlatformIO in Visual Studio Code was used for both.
